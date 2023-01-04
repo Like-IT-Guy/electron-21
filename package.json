@@ -17,7 +17,8 @@
       {
         "provider": "github",
         "owner": "Like-IT-Guy",
-        "repo": "electron-21"
+        "repo": "electron-21",
+        "token": "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"
       }
     ]
   },
@@ -31,10 +32,10 @@
   },
   "homepage": "https://github.com/Like-IT-Guy/electron-21#readme",
   "devDependencies": {
-    "electron": "^22.0.0"
+    "electron": "^22.0.0",
+    "electron-builder": "^23.6.0"
   },
   "dependencies": {
-    "electron-builder": "^23.6.0",
     "electron-log": "^4.4.8",
     "electron-updater": "^5.3.0"
   }
