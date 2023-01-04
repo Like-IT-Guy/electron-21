@@ -1,0 +1,40 @@
+{
+  "name": "electron-21",
+  "version": "1.0.0",
+  "description": "autopatches",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Like-IT-Guy/electron-21.git"
+  },
+  "build": {
+    "publish": [
+      {
+        "provider": "github",
+        "owner": "Like-IT-Guy",
+        "repo": "electron-21"
+      }
+    ]
+  },
+  "keywords": [
+    "auto-patches"
+  ],
+  "author": "Like-IT-Guy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Like-IT-Guy/electron-21/issues"
+  },
+  "homepage": "https://github.com/Like-IT-Guy/electron-21#readme",
+  "devDependencies": {
+    "electron": "^22.0.0"
+  },
+  "dependencies": {
+    "electron-builder": "^23.6.0",
+    "electron-log": "^4.4.8",
+    "electron-updater": "^5.3.0"
+  }
+}
