@@ -1,6 +1,6 @@
 {
   "name": "electron-21",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "autopatches",
   "main": "main.js",
   "scripts": {
